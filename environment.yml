@@ -16,4 +16,3 @@ dependencies:
   - r-knitr
   - r-rmarkdown
   - r-gtable
-  - libicu=58
