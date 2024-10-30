@@ -6,7 +6,7 @@ Launch Online [![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks
 
 | **Serial Number** | **File Name**                           | **Dependencies**                                | **Reproducibility Status** | **Issue/Obstacle**                                                                                                             |
 |-------------------|-----------------------------------------|------------------------------------------------|----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| 28                | `DMS-NRSA-CA-QC-Figures.R` | `ggplot2`, `ggsn`, `grid`, `tidyverse`, `mapdata`, `rgdal`, `vegan` | Not Reproducible           | The `ggsn` package failed to load due to a missing shared object file (`stringi.so`). The error was related to `libicui18n.so.58`, which could not be found. |
+| 28                | `DMS-NRSA-CA-QC-Figures.R` | `r-base=4.2``r-ggplot2`, `r-ggsn`, `r-grid`, `r-tidyverse`, `r-mapdata`, `r-gdal`, `r-vegan` | Not Reproducible           | The `ggsn` package failed to load due to a missing shared object file (`stringi.so`). The error was related to `libicui18n.so.58`, which could not be found. |
 
 
 
