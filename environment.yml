@@ -1,0 +1,18 @@
+name: NRSA-CA-Environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base=4.2
+  - r-tidyverse
+  - r-vegan
+  - r-mapdata
+  - r-rgdal
+  - r-ggsn
+  - r-gridextra
+  - r-cowplot
+  - r-ggpubr
+  - r-viridis
+  - r-knitr
+  - r-rmarkdown
+  - r-gtable
